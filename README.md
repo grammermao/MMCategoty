@@ -17,7 +17,14 @@
       [self.view addSubview:lable];
   ```
 
+- MMFastCoder（在本地是加密存储）
 
+  ```objective-c
+      NSArray *arr1 =@[@1,@2,@3,@4,@5,@6];
+      [[MMFastCoder managerCenter]storeValue:arr1 withKey:@"yctest"];
+  ```
+
+  ​
 
 
 
