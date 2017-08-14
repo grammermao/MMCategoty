@@ -11,6 +11,21 @@
 
 
 #import "UIColor+MMColor.h"
+#import "MMFastCoder.h"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#define MMHOMEPATH NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES)[0];
 
 #endif /* MMHeader_h */

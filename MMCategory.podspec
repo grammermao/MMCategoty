@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MMCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.1.1"
   s.summary      = "MMCategory is simple to use."
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,10 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MMCotegory", "MMCotegory/**/*.{h,m}"
+  # s.source_files  = "MMCotegory", "MMCotegory/**.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  
+  # s.public_header_files = "MMCategory/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

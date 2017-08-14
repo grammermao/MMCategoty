@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC68732B1F4176D900198287 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC68732A1F4176D900198287 /* FastCoder.m */; };
+		AC68732E1F41770100198287 /* MMFastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC68732D1F41770100198287 /* MMFastCoder.m */; };
 		AC79B5DE1F3C07D7009E0762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79B5DD1F3C07D7009E0762 /* main.m */; };
 		AC79B5E11F3C07D7009E0762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79B5E01F3C07D7009E0762 /* AppDelegate.m */; };
 		AC79B5E41F3C07D7009E0762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79B5E31F3C07D7009E0762 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC6873291F4176D900198287 /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		AC68732A1F4176D900198287 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		AC68732C1F41770100198287 /* MMFastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFastCoder.h; sourceTree = "<group>"; };
+		AC68732D1F41770100198287 /* MMFastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFastCoder.m; sourceTree = "<group>"; };
 		AC79B5D91F3C07D7009E0762 /* CategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC79B5DD1F3C07D7009E0762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC79B5DF1F3C07D7009E0762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,9 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC6873281F4175EA00198287 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AC6873291F4176D900198287 /* FastCoder.h */,
+				AC68732A1F4176D900198287 /* FastCoder.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		AC79B5D01F3C07D7009E0762 = {
 			isa = PBXGroup;
 			children = (
+				AC6873281F4175EA00198287 /* Tools */,
 				AC79B5FA1F3C08E0009E0762 /* MMCotegory */,
 				AC79B5DB1F3C07D7009E0762 /* CategoryDemo */,
 				AC79B5DA1F3C07D7009E0762 /* Products */,
@@ -90,6 +106,8 @@
 				AC79B5FB1F3C08E0009E0762 /* MMHeader.h */,
 				AC79B5FC1F3C08E0009E0762 /* UIColor+MMColor.h */,
 				AC79B5FD1F3C08E0009E0762 /* UIColor+MMColor.m */,
+				AC68732C1F41770100198287 /* MMFastCoder.h */,
+				AC68732D1F41770100198287 /* MMFastCoder.m */,
 			);
 			path = MMCotegory;
 			sourceTree = "<group>";
@@ -166,8 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC79B5E41F3C07D7009E0762 /* ViewController.m in Sources */,
+				AC68732B1F4176D900198287 /* FastCoder.m in Sources */,
 				AC79B5FE1F3C08E0009E0762 /* UIColor+MMColor.m in Sources */,
 				AC79B5E11F3C07D7009E0762 /* AppDelegate.m in Sources */,
+				AC68732E1F41770100198287 /* MMFastCoder.m in Sources */,
 				AC79B5DE1F3C07D7009E0762 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
